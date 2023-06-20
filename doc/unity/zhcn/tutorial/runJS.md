@@ -10,7 +10,7 @@ void Start() {
     Puerts.JsEnv env = new Puerts.JsEnv();
     env.Eval(@"
         console.log('hello world');
-    ")
+    ");
 }
 ```
 执行后，你能看见Unity控制台中打印出了`Hello world`。
